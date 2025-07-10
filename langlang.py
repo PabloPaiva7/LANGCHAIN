@@ -6,7 +6,7 @@ from openai import OpenAI
 
 # Configuração da API do OpenRouter (Claude)
 client = OpenAI(
-    api_key=os.getenv("OPENROUTER_API_KEY", "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"),
+    api_key=os.getenv("OPENROUTER_API_KEY", "SUA-CHAVE-OPENAI"),
     base_url="https://openrouter.ai/api/v1"
 )
 
